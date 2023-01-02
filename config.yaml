@@ -1,0 +1,31 @@
+databases:
+  oms:
+    database: porter_order_production
+    host: oms-prod-psql-replica.porter.in
+    password: shubhamagrawal@r3sf3b3r
+    port: '5432'
+    user: shubhamagrawal
+  redshift:
+    database: porter
+    host: commons-prod-redshift.porter.in
+    password: Resfeber123
+    port: '5439'
+    user: anant
+  rnr:
+    database: commons_prod
+    host: commons-prod-psql-replica.porter.in
+    password: ForceHasAwakened2515
+    port: '5432'
+    user: postgres
+  sfms:
+    database: sfms_production
+    host: sfms-prod.cg6jzsszjsaw.ap-southeast-1.rds.amazonaws.com
+    password: ForceHasAwakened2515
+    port: '5432'
+    user: postgres
+  vp:
+    database: commons_prod
+    host: commons-prod-psql-replica.porter.in
+    password: 0yn21DSTx&l8
+    port: '5432'
+    user: vp_prod_server
